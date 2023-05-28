@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 1000px;
+  min-width: 320px;
+  height: 100vh;
+  background-color: rgb(24, 24, 24);
+}
+
+.header{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  height: 100px;
+  max-width: 1000px;
+  min-width: 320px;
+
+  
+}
+.header img{
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 150px;
+  bottom: 10px;
+  max-width: 1000px;
+  min-width: 320px;
+}
+.nav a{
+  padding: 0px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(255, 250, 250);
+  background-color: rgb(0, 0, 0);
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 30px;
+  max-width: 1000px;
+  min-width: 320px;
+  
+  transition: 0.5s;
+  border-radius: 7px;
+  height: auto;
+}
+
+.nav{
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  margin-bottom:1050px;
+  box-shadow: 0px 5px 4px rgba(255, 187, 0, 0.8);
+  padding: 12px;
+  max-width: 100%;
+  min-width: 20%;
+}
+
+.article img{
+
+  margin: left;
+  width: 450px;
+  height: 350px;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 10px;
+  max-width: 100%;
+  min-width: 50%;
+
+}
+.nav a:hover{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+
+}
+.container{
+
+  position: relative;
+  justify-content: center;
+  bottom: 1200px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 210px;
+  left:85px;
+  margin-right: 5px;
+  
+}
+.container .card{
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(36, 36, 36);
+  margin: 20px;
+  border: 1px solid rgb(247, 168, 0);
+  overflow: hidden;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-align: center;
+  
+
+}
+.container .card .c{
+  transition: 0.5s;
+  width: 100px;
+  height: 100px;
+  border-radius: 0px;
+}
+.container .card img{
+  margin: 30px;
+  transition: 0.5s;
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+}
+.container .card h1{
+  font-size: 2em;
+}
+.container .card .content{
+  padding: 20px;
+  text-align: center;
+}
+.container .card .content p{
+  color: #c2c0c0;
+  transition: 0.5s;
+  text-align: center;
+  text-indent: 10px;
+  font-size: 1.3em;
+
+}
+.container .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+margin-top: 20px;
+}
+.container .card:hover{
+  background-color: rgba(255, 187, 0, 0.8);
+  color:rgb(0, 0, 0);
+  margin-top:-30px;
+  box-shadow: 2px 20px 32px rgba(52, 52, 53, 0.8);
+  border-color: rgb(250, 155, 46);
+}
+
+.container .card:hover .content p{
+  color: white;
+}
+.container .card:hover .content a{
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+/*
+.content1 p{
+  position: relative;
+  border: 2px solid rgb(247, 168, 0);
+  text-align: justify;
+  text-indent: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  width: 1200px;
+  height: auto;
+  bottom: 1000px;
+  left: 50px;
+  border-bottom:rgb(24, 24, 24) ;
+  margin: 0px;
+  padding: 20px;
+  color: #c2c0c0;
+  border-left-color:rgb(24, 24, 24) ;
+  border-right-color: rgb(24, 24, 24);
+  border-top-color:rgb(24, 24, 24) ;
+}
+*/
+.text .imgetxt1 {
+  width: 1300px;
+  height: 900px;
+  bottom: 1119px;
+  align-items: center;
+  position: relative;
+  background-image: url(./img/itens/variasanilhas.jpg);
+
+}
+.text h1{
+  bottom: 1000px;
+  position: relative;
+  text-align: center;
+  font-family: 'Asap';
+  font-size: 2em;
+  color: #c2c0c0;
+  width: 405px;
+  height: 45px;
+  left: 50px;
+  border-top-right-radius: 10px;
+  border-radius: 15px 15px 0px 0px;
+  align-items: center;
+  border: 2px solid rgb(247, 168, 0);
+  margin-top: 10px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.658);
+  border-left-color:rgb(24, 24, 24) ;
+  border-right-color: rgb(24, 24, 24);
+  border-top-color:rgb(24, 24, 24) ;
+
+}
+
+.alimento{
+  bottom: 1000px;
+  position: relative;
+  text-align: center;
+  font-family: 'Asap';
+  font-size: 0.8em;
+  color: #c2c0c0;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  border-top-right-radius: 10px;
+  align-items: center;
+  border: 2px solid rgb(247, 168, 0);
+  margin-top: -150px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+  border-left-color:rgb(24, 24, 24) ;
+  border-right-color: rgb(24, 24, 24);
+  border-top-color:rgb(24, 24, 24) ;
+}
+
+.alimentotext{
+  position: relative;
+  border: 2px solid rgb(247, 168, 0);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  width: 1200px;
+  height: auto;
+  bottom: 1000px;
+  left: 50px;
+  
+  padding: 20px;
+  color: #c2c0c0;
+  margin-top: 0px;
+  border-left-color:rgb(24, 24, 24) ;
+  border-right-color: rgb(24, 24, 24);
+  border-top-color:rgb(24, 24, 24) ;
+  border-bottom:rgb(24, 24, 24) ;
+}
+footer{
+  background-color: black;
+  margin: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  height: 200px;
+  
+}
+footer > h3{
+  color: white;
+  margin: 30px;
+}
+footer > p{
+  color: white;
+  margin: 10px;
+}
+
+

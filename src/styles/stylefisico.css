@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+}
+:root{
+  --cor0--: #ffffff;
+  --cor1--: #ff3131;
+ 
+  --fontetitulo--: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 10in;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-image: url(./../../img/itens/anilha.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14in;
+  background-color: #3a3939;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.background-da-gloria {
+  background-color: #000;
+}
+
+main .main-text {
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(150deg, rgb(255, 0, 0) 50%,#ffffff 50%);
+  -webkit-background-clip: text;
+  color: #ff000000 !important;
+}
+
+.main-cards {
+  width: 100%;
+  height: 100vh;
+  background-color: #3a3939;
+}
+
+.header img{
+  justify-content: left;
+  width: 130px;
+  height:auto;
+  position: relative;
+  margin: -22px;
+  border-bottom: 1px black;
+  top: 0%;
+}
+.link{
+    margin: 0px;
+    margin-top: -67px;
+    margin-left: 800px;
+
+}
+.link > a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 1s;
+   
+    
+}
+.link a:hover{
+  color: var(--cor1--);
+  font-size: 1.2em;
+  padding: 0 10px 10px;
+  transition: 1s;
+}
+.header{
+  position: fixed;
+  width: 2000px;
+  height: 100px;
+  background-color: transparent;
+  padding: 20px 40px;
+  border-bottom: 1px solid #222f3e;
+  margin-bottom: 5px;
+  backdrop-filter: blur(5px);
+  
+  
+}
+
+
+main figure img{
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.678);
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    padding: 100px 100px;
+    position: relative;
+    top: 10px ;
+}
+
+.endereco{
+    text-align: center;
+    margin-top: -70px;
+  }
+  
+  .Rede{
+    text-align: right;
+    margin-top: -99px;
+    margin-right: 17px;
+  }
+
+  .fisicoh1{
+    background: linear-gradient(150deg, var(--cor1--) 51%,#fff 100%);
+    -webkit-background-clip: text;
+    color: #ff000000 !important;
+    font-size: 1.5em;
+    padding: 150px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .fisicoh1 img{
+    width: 200px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+  .fisicoh1es{
+    text-align: right;
+    margin-right: 50px;
+    color: #ff000000;
+    background: linear-gradient(150deg, var(--cor1--) 90%, #fff 100%);
+    -webkit-background-clip: text;
+    margin-top: -210px;
+    margin-bottom: 10px;
+    
+    
+  }
+
+  .container{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 1150px;
+    padding: 20px;
+    display: flex      ;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-left: 125px;
+    margin-top: 0px;
+    
+  }
+  .card{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+    margin-top: 10px;
+  
+  }
+  .container .card{
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(36, 36, 36);
+    margin: 0 20px;
+    border: 1px solid var(--cor1--);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .container .card .c{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+  }
+  .container .card img{
+    margin: 30px;
+    transition: 0.5s;
+    width: 130px;
+    height: 130px;
+    border-radius: 70px !important;
+    
+    
+  
+  }
+  .container .card h1{
+    font-size: 2em;
+    color: var(--cor0--);
+    text-align: center;
+  }
+  .container .card .content{
+    padding: 20px;
+  }
+  .container .card .content p{
+    color: #c2c0c0;
+    transition: 0.5s;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 1.7em;
+  }
+  .container .card .content a{
+   
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+    
+  }
+  .container .card:hover{
+    background-color: var(--cor1--);
+    color:rgb(0, 0, 0);
+    margin: -30;
+    box-shadow: 2px 20px 32px rgba(52, 52, 53, 0.8);
+    border-color: var(--cor1--);
+  }
+  
+  .container .card:hover .content p{
+    color: white;
+  }
+  .container .card:hover .content a{
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .conteudo{
+    margin-bottom: -500px;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--cor1--);
+    border-radius: 10px;
+  }
+  
